@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.imagem-edit{
+    width: 130px;
+    height: 80px;
+    
+}
+
+.container{
+    background: linear-gradient(180deg,#101010 0,#161616 100%);
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 2px solid #3c6ae7;
+    color: white;
+    max-width: 100%;
+    height: 62px;
+}
+
+.navegacao{
+    display: flex;
+}
+
+.divchefe-header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -240px;
+}
+
+.logo-lista{
+    position: relative;
+    left: 50px;
+}
+
+.ul1{
+    gap: 15px;
+}
+
+.lista2{
+    position: relative;
+    right: -200px;
+}
+
+.ul2{
+    gap: 15px;
+}
+
+body{
+    background-color: #060e24;
+    font: 14px/1.5 Roboto,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: white;
+}
+
+.fundo{
+    max-width: 1330px;
+    height: 500px;
+    top: 5px;
+    position: relative;
+}
+
+.imagem-slide{
+    text-align: center;
+    
+}
+
+.frase-efeito{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.slots{
+    display: flex;
+    justify-content: space-around;
+}
+
+.oneplus{
+    width: 400px;
+    height: 300px;
+}
+
+.slot1{
+    margin-top: 50px;
+    max-width: 320px;
+}
+
+.oppo{
+    width: 400px;
+    height: 260px;
+    
+}
+
+.slot2{
+    position: relative;
+    margin-top: 60px;
+    max-width: 320px;
+    left: -45px;
+}
+
+.p40{
+    width: 350px;
+    height: 370px;
+}
+
+.slot3{
+    margin-top: 10px;
+    max-width: 320px;
+}
+
+.shop-categoria{
+    height: 34px;
+    background-color: #334986;
+    height: 50px;
+}
+
+.navegacao2 ul{
+    gap: 30px;
+    display: flex;
+    position: relative;
+    left: 373px;
+    top: 13px;
+}
+
+a{
+    color: #ffffff;
+}
+
+a :hover{
+    color: rgb(168, 165, 165);
+    transition: 200ms;
+}
+
+.navegacao2{
+    max-width: 900px;
+}
